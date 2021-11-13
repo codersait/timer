@@ -4,8 +4,8 @@ export function start(clock) {
   const hoursContainer = document.getElementById('hours');
   setInterval(() => {
     secondsContainer.innerText = clock.seconds;
-    minutesContainer.innerText = `${clock.minutes} :`;
-    hoursContainer.innerText = `${clock.hours} :`;
+    minutesContainer.innerText = `${clock.minutes}:`;
+    hoursContainer.innerText = `${clock.hours}:`;
     clock.advance();
   }, 1000);
 }
