@@ -23,3 +23,9 @@ body {
   /* border: 1px solid red; */
   /* padding: 1rem; */
 }
+
+@media screen and (max-width: 500px) {
+  body {
+    align-items: flex-start;
+  }
+}
